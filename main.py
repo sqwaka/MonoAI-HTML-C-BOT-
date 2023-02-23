@@ -2,7 +2,7 @@ import openai
 from flask import Flask, request, jsonify
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "###"
 
 # Create a Flask app and set up the message database
 app = Flask(__name__)
