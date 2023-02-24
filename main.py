@@ -12,7 +12,7 @@ messages = []
 def generate_response(message):
     prompt = "User: {}\nAI:".format(message)
     response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="text-davinci-003",
         prompt=prompt,
         max_tokens=1024,
         n=1,
